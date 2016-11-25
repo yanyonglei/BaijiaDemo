@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#330000ff"
+    >
+    <include layout="@layout/top" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterOverflowTextAppearance="@style/MyOverflowText"
+        app:errorTextAppearance="@style/MyErrorStyle">
+        <EditText
+            android:id="@+id/id_date"
+            android:background="@drawable/user_bg"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="日期 格式 年-月-日"
+            android:singleLine="true"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="省份"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+
+        app:counterOverflowTextAppearance="@style/MyOverflowText"
+        app:errorTextAppearance="@style/MyErrorStyle">
+        <EditText
+            android:id="@+id/id_province"
+            android:background="@drawable/user_bg"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="省份"
+            android:singleLine="true"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="城市名"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+
+        app:counterOverflowTextAppearance="@style/MyOverflowText"
+        app:errorTextAppearance="@style/MyErrorStyle">
+        <EditText
+            android:id="@+id/id_city"
+            android:background="@drawable/user_bg"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="输入城市名"
+            android:singleLine="true"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/id_cx"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="查询"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/login_bg"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleView"
+        android:scrollbars="vertical"
+
+        >
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+<!--
+    android:layoutAnimation="@anim/anim_layout"-->

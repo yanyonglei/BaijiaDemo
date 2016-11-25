@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<litepal>
+    <!--数据库的配置-->
+    <!--数据库名    yanyl.db-->
+    <dbname value="yanyl"></dbname>
+    <!--版本 号 7-->
+    <version value="7"></version>
+    <list>
+        <!--图片表-->
+        <mapping class="com.yanyl.baijia.news.bean.ImageBean"></mapping>
+        <!--用户表-->
+        <mapping class="com.yanyl.baijia.news.bean.User"></mapping>
+        <!--新闻表-->
+        <mapping class="com.yanyl.baijia.news.bean.XinwenBean"></mapping>
+        <!--天气表-->
+        <mapping class="com.yanyl.baijia.news.bean.TianQiBean"></mapping>
+        <!--建议表-->
+        <mapping class="com.yanyl.baijia.news.bean.IdeaBean"></mapping>
+    </list>
+</litepal>

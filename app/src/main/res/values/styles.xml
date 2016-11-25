@@ -1,0 +1,144 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>
+    </style>
+    <style name="Theme_AudioDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MyImageView" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#00ff00</item>
+    </style>
+    <style name="MyImageView_vectial" >
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#00ff00</item>
+    </style>
+
+
+
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_chuxian</item>
+        <item name="android:windowExitAnimation">@anim/dialog_dismiss</item>
+    </style>
+
+
+
+<!--多主题样式-->
+    <style name="RedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="PinkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="BrownTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/brown_primary</item>
+        <item name="colorPrimaryDark">@color/brown_primary_dark</item>
+        <item name="colorAccent">@color/brown_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="BlueTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/blue_primary_dark</item>
+        <item name="colorAccent">@color/blue_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="BlueGreyTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/blue_grey_primary</item>
+        <item name="colorPrimaryDark">@color/blue_grey_primary_dark</item>
+        <item name="colorAccent">@color/blue_grey_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="YellowTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/yellow_primary</item>
+        <item name="colorPrimaryDark">@color/yellow_primary_dark</item>
+        <item name="colorAccent">@color/yellow_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="DeepPurpleTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/deep_purple_primary</item>
+        <item name="colorPrimaryDark">@color/deep_purple_primary_dark</item>
+        <item name="colorAccent">@color/deep_purple_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryDark">@color/green_primary_dark</item>
+        <item name="colorAccent">@color/green_accent</item>
+        <item name="mainBackground">@color/white</item>
+
+    </style>
+    <style name="DeepOrangeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/deep_orange_primary</item>
+        <item name="colorPrimaryDark">@color/deep_orange_primary_dark</item>
+        <item name="colorAccent">@color/deep_orange_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="GreyTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/grey_primary</item>
+        <item name="colorPrimaryDark">@color/grey_primary_dark</item>
+        <item name="colorAccent">@color/grey_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="CyanTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/cyan_primary</item>
+        <item name="colorPrimaryDark">@color/cyan_primary_dark</item>
+        <item name="colorAccent">@color/cyan_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+    <style name="AmberTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/amber_primary</item>
+        <item name="colorPrimaryDark">@color/amber_primary_dark</item>
+        <item name="colorAccent">@color/amber_accent</item>
+        <item name="mainBackground">@color/white</item>
+    </style>
+
+
+
+    <style name="MyOverflowText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#f3672b</item>
+    </style>
+
+    <style name="MyErrorStyle">
+        <item name="android:textColor">#ec4722</item>
+    </style>
+
+
+
+</resources>

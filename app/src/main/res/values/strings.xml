@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">新闻</string>
+    <string name="news">新闻</string>
+    <string name="video">娱乐</string>
+    <string name="setting">设置</string>
+    <string name="contract">欢迎使用个人娱乐端如有问题请联系我:tel:183****4047 ---e-mail:1339447312@qq.com</string>
+    <string name="yanzhengma">输入验证码 4位</string>
+    <string name="huoquyanzhengma">获取验证码</string>
+    <string name="denglu">登录</string>
+    <string name="information">
+        (1)、点击下方空白任意处重新开始。
+        (2)、围堵猎物红色点，当红色的点处于蓝色的中央，说明游戏胜利。当红色的点逃出猎场游戏失败。
+    </string>
+    <string name="str_record_nomal">按住 说话</string>
+    <string name="str_record_recording">松开 结束</string>
+    <string name="str_record_want_cancel">松开手指，结束</string>
+    <string name="change_theme_key">changetheme</string>
+    <string name="search">搜索</string>
+
+</resources>
